@@ -1,14 +1,61 @@
 type: "MARKDOWN_NOTE"
 content: '''
-  ´´´´
-  hola
-  ´´´´
+  # [HELP](https://medium.com/boostnote/boost-your-study-and-work-speed-using-markdown-4f1adbb096aa)
+  
+  <details><summary>Boostnote is a notepad corresponding to markdown notation, which is a tool for organizing and sharing information.</summary>
+  - Features - <br>
+  · Search function to find memos in one shot
+  · Supports markdown notation <br>
+  · Support for Mac, Windows, Linux, iOS, Android <br>
+  · Export and import to Plain text (.txt), Markdown (.md) format <br>
+  · Supports PDF saving <br>
+  · Can be used offline <br>
+  · Synchronize to dropbox etc. with setting <br>
+  · Supports theme colors and numerous fonts <br>
+  </details>
+  
+  - [x] Task 1
+  - [x] Task 2
+  
+  ```js
+  Render: function () {
+    Return (
+      <Div className = “commentBox”>
+        <H1> Comments </ h1>
+        <CommentList data = {this.state.data} />
+        <CommentForm onCommentSubmit = {this.handleCommentSubmit} />
+      </Div>
+    );
+  }
+  ```
+  
+  ```flowchart
+  st=>start: Start:>http://www.google.com[blank]
+  e=>end:>http://www.google.com
+  op1=>operation: My Operation
+  sub1=>subroutine: My Subroutine
+  cond=>condition: Yes or No?:>http://www.google.com
+  io=>inputoutput: catch something…
+  st->op1->cond
+  cond(yes)->io->e
+  cond(no)->sub1(right)->op1
+  ```
+  
+  ```sequence
+  Title: Here is a title
+  A-> B: Normal line
+  B -> C: Dashed line
+  C -> D: Open arrow
+  D -> A: Dashed open arrow
+  ```
 '''
-title: "´´´´"
+title: "HELP"
 folder: "d8a3e829e299fd5ae9b1"
 createdAt: "2018-01-22T13:34:12.857Z"
-updatedAt: "2018-01-22T13:34:20.867Z"
+updatedAt: "2018-01-22T16:05:15.638Z"
 isStarred: false
 isTrashed: false
-tags: []
+tags: [
+  "Help"
+]
 isPinned: false
