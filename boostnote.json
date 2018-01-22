@@ -9,6 +9,11 @@
       "key": "36930da2e8c8f48f61ca",
       "color": "#3FD941",
       "name": "Bash"
+    },
+    {
+      "key": "cc3caad2817db0008a6c",
+      "color": "#E8D252",
+      "name": "Help"
     }
   ],
   "version": "1.0"
