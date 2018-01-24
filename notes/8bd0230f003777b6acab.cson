@@ -1,5 +1,5 @@
 createdAt: "2018-01-22T13:34:12.857Z"
-updatedAt: "2018-01-22T16:25:55.714Z"
+updatedAt: "2018-01-23T14:54:05.851Z"
 type: "MARKDOWN_NOTE"
 content: '''
   # [HELP](https://medium.com/boostnote/boost-your-study-and-work-speed-using-markdown-4f1adbb096aa)
@@ -19,14 +19,14 @@ content: '''
   - [x] Task 1
   - [x] Task 2
   
-  ```js
+  ```js html
   Render: function () {
     Return (
-      <Div className = “commentBox”>
-        <H1> Comments </ h1>
+      <div className = “commentBox”>
+        <h1> Comments </ h1>
         <CommentList data = {this.state.data} />
         <CommentForm onCommentSubmit = {this.handleCommentSubmit} />
-      </Div>
+      </div>
     );
   }
   ```
@@ -56,6 +56,6 @@ folder: "cc3caad2817db0008a6c"
 isStarred: false
 isTrashed: false
 tags: [
-  "Help"
+  "help"
 ]
 isPinned: false

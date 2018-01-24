@@ -1,0 +1,24 @@
+createdAt: "2018-01-23T08:20:17.958Z"
+updatedAt: "2018-01-23T11:51:16.475Z"
+type: "MARKDOWN_NOTE"
+folder: "7d8f59c1ac57dc92cc3f"
+title: "FLEX"
+content: '''
+  # FLEX
+  
+  [FlexyFroggy](http://flexboxfroggy.com/#es)
+  
+  ```css
+  #pond {
+    display: flex;
+    justify-content: flex-start flex-end center space-around space-between; /* HORIZONTAL*/
+    aling-items: flex-start flex-end center baseline stretch; /*VERTICAL */
+    flex-direction: row row-reverse column column-reverse; /*Distribución elementos*/
+  }
+  ```
+'''
+tags: [
+  "css"
+]
+isStarred: false
+isTrashed: false

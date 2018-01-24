@@ -1,9 +1,14 @@
 {
   "folders": [
     {
+      "key": "cc3caad2817db0008a6c",
+      "color": "#E8D252",
+      "name": "Help"
+    },
+    {
       "key": "d8a3e829e299fd5ae9b1",
       "color": "#E10051",
-      "name": "GitNotes"
+      "name": "Git"
     },
     {
       "key": "36930da2e8c8f48f61ca",
@@ -11,9 +16,14 @@
       "name": "Bash"
     },
     {
-      "key": "cc3caad2817db0008a6c",
+      "key": "7d8f59c1ac57dc92cc3f",
+      "color": "#417505",
+      "name": "Css"
+    },
+    {
+      "key": "36dc2446e36e7cca6b7c",
       "color": "#E8D252",
-      "name": "Help"
+      "name": "SQL"
     }
   ],
   "version": "1.0"
