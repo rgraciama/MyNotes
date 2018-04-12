@@ -1,0 +1,13 @@
+createdAt: "2018-04-12T09:13:36.064Z"
+updatedAt: "2018-04-12T09:13:43.276Z"
+type: "MARKDOWN_NOTE"
+folder: "500e3f4fe40b90c44d01"
+title: "Comandes linux"
+content: '''
+  # Comandes linux
+  
+  tail -f -n1000 /srv/tomcat/logs/catalina.out
+'''
+tags: []
+isStarred: false
+isTrashed: false

@@ -24,6 +24,21 @@
       "key": "36dc2446e36e7cca6b7c",
       "color": "#E8D252",
       "name": "SQL"
+    },
+    {
+      "key": "fb254da586aa10c929b0",
+      "color": "#30D5C8",
+      "name": "WS"
+    },
+    {
+      "key": "8f59b297aeb5cc6d9ee7",
+      "color": "#E8D252",
+      "name": "Java Thread"
+    },
+    {
+      "key": "500e3f4fe40b90c44d01",
+      "color": "#3FD941",
+      "name": "Linux"
     }
   ],
   "version": "1.0"

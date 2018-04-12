@@ -1,0 +1,17 @@
+createdAt: "2018-03-12T08:24:15.251Z"
+updatedAt: "2018-03-12T13:18:20.590Z"
+type: "MARKDOWN_NOTE"
+folder: "8f59b297aeb5cc6d9ee7"
+title: "Thread"
+content: '''
+  # Thread
+  
+  3 formas para implementar un Thread.
+  
+  - new Class Extend de la clase Thread.
+  - new Class Implementando Runable.
+  - Implementando Runnable directamente en el mismo new Thread.
+'''
+tags: []
+isStarred: false
+isTrashed: false
