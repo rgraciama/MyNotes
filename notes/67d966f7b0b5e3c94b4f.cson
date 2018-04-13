@@ -1,11 +1,16 @@
 createdAt: "2018-01-23T09:35:07.623Z"
-updatedAt: "2018-01-23T09:43:32.178Z"
+updatedAt: "2018-04-12T10:15:16.399Z"
 type: "MARKDOWN_NOTE"
 folder: "d8a3e829e299fd5ae9b1"
 title: "GIT"
 content: '''
   # GIT
   
+  ### git add
+  Afegir al stash tots els documents modificats.
+  ```git
+  git add .
+  ```
   ### git branch
   Para mostrar brancas remotas:
   ```git
@@ -38,6 +43,8 @@ content: '''
   ```
   ### git status
   Nos dice el estado del repositorio local
+  
+  
 '''
 tags: [
   "git"

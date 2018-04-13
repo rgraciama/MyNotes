@@ -1,0 +1,30 @@
+createdAt: "2018-04-13T14:55:55.176Z"
+updatedAt: "2018-04-13T15:02:14.301Z"
+type: "MARKDOWN_NOTE"
+folder: "d8a3e829e299fd5ae9b1"
+title: "GIT ADVANCED"
+content: '''
+  # GIT ADVANCED
+  
+  ### Guardar file al stash
+  
+  - Afegir al stash el document indicat
+  ```git
+  git stash save <nameFile>
+  ```
+  - Cambiar de branca.
+  - Recuperar el ficher del stash
+  ```git
+  git stash pop <nameFile>
+  ```
+  - Resolver conflictos buscar mergetool.
+  
+  ### Quitar el commit del file, sin quitar cambios.
+  
+  ```git
+  git reset HEAD <nameFile>
+  ```
+'''
+tags: []
+isStarred: false
+isTrashed: false
