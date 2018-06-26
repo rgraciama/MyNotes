@@ -1,0 +1,15 @@
+createdAt: "2018-06-25T14:50:09.856Z"
+updatedAt: "2018-06-26T10:42:15.274Z"
+type: "MARKDOWN_NOTE"
+folder: "276031ddb754b09f1290"
+title: "Katalon Linux Log"
+content: '''
+  # Katalon Linux Log
+  
+  El log de katalon en linux está en:
+  
+  "/srv/config/.metadata/.log"
+'''
+tags: []
+isStarred: false
+isTrashed: false

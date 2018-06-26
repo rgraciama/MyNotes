@@ -1,0 +1,18 @@
+createdAt: "2018-06-08T09:13:14.897Z"
+updatedAt: "2018-06-08T09:18:21.898Z"
+type: "MARKDOWN_NOTE"
+folder: "1a860b425c141f0be3c3"
+title: "Spoon.bat"
+content: '''
+  # Spoon.bat
+  
+  ### Adaptar kettle para que funcione en windows
+  * Subir la memoria dedicada a kettle:
+  ```BATCH
+  if "%PENTAHO_DI_JAVA_OPTIONS%"=="" set PENTAHO_DI_JAVA_OPTIONS="-Xms1024m" "-Xmx3072m" "-XX:MaxPermSize=1024m"
+  ```
+  * Añadir: jtds lib 1.3.1 en la carpeta libs
+'''
+tags: []
+isStarred: false
+isTrashed: false

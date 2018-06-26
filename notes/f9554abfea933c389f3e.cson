@@ -1,0 +1,47 @@
+createdAt: "2018-06-08T10:12:44.590Z"
+updatedAt: "2018-06-08T10:27:11.050Z"
+type: "MARKDOWN_NOTE"
+folder: "031ecbede13ccaae76ab"
+title: "Cacerts Keytool"
+content: '''
+  # Cacerts Keytool
+  
+  A la carpeta jre>lib>security de cada paquet java tenim el fitxer cacerts.
+  
+  Aquest fitxer emmagatzema el certificats CA de Java.
+  
+  Per tenir control d'aquest fitxer podem utilitzar l'eina keytool a la línea de comandes.
+  
+  1) Llistar certificats instal·lats al cacerts:
+  keytool -list -keystore <fileCacerts>
+  
+  2) Afegir certificat:
+  keytool -keystore <fileCacerts> -importcert -alias equifaxsecureca -file <fileCer>
+  
+  La contrasenya default es: changeit
+  
+  *) Si voleu exportar un certificat d'alguna pàgina concreta o podeu fer desde firefox:
+  
+  ![Certifitat_PrimeFaces.jpg](\\:storage\\0.l01nyxsh1a.jpg)
+  ---
+  
+  Problema con PKIX validator o certification
+  
+  You need to add the certificate for App2 to the truststore file of the used JVM located at %JAVA_HOME%\\lib\\security\\cacerts.
+  
+  First you can check if your certificate is already in the truststore by running the following command: keytool -list -keystore "%JAVA_HOME%/jre/lib/security/cacerts" (you don't need to provide a password)
+  
+  If your certificate is missing, you can get it by downloading it with your browser and add it to the truststore with the following command:
+  
+  keytool -import -noprompt -trustcacerts -alias <AliasName> -file   <certificate> -keystore <KeystoreFile> -storepass <Password>
+  
+  Afer import you can run the first command again to check if your certificate was added.
+  
+  Sun/Oracle information can be found here.
+  
+  
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false

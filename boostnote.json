@@ -39,6 +39,46 @@
       "key": "500e3f4fe40b90c44d01",
       "color": "#3FD941",
       "name": "Linux"
+    },
+    {
+      "key": "ce0f1655a7b2bd0bc498",
+      "color": "#E10051",
+      "name": "OCA"
+    },
+    {
+      "key": "a61b0ed6c1e9ffe0e115",
+      "color": "#E10051",
+      "name": "PRIMEFACES"
+    },
+    {
+      "key": "e753a4d90155d4543ead",
+      "color": "#E10051",
+      "name": "Mockito"
+    },
+    {
+      "key": "efd51abdd7667c4e760b",
+      "color": "#B013A4",
+      "name": "Hibernate"
+    },
+    {
+      "key": "1a860b425c141f0be3c3",
+      "color": "#3FD941",
+      "name": "Kettle"
+    },
+    {
+      "key": "390c951bec31513ae61c",
+      "color": "#E8D252",
+      "name": "Eclipse Git"
+    },
+    {
+      "key": "031ecbede13ccaae76ab",
+      "color": "#E8D252",
+      "name": "JAVA"
+    },
+    {
+      "key": "276031ddb754b09f1290",
+      "color": "#E8D252",
+      "name": "Katalon"
     }
   ],
   "version": "1.0"

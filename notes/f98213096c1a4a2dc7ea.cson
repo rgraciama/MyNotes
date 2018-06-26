@@ -1,0 +1,33 @@
+createdAt: "2018-04-25T11:47:24.123Z"
+updatedAt: "2018-04-25T11:56:46.156Z"
+type: "MARKDOWN_NOTE"
+folder: "ce0f1655a7b2bd0bc498"
+title: "OCA Mock"
+content: '''
+  # OCA Mock
+  
+  
+  ## Q1
+  ```JAVA
+  import java.util.ArrayList;
+  import java.util.List;
+  public class JavaSETest {
+  	public static void main(String[] args) {
+  	List<Integer> elements = new ArrayList<>();
+  	elements.add(10);
+  	int firstElmnt = elements.get(1);
+  	System.out.println(firstElmnt);
+  	}
+  }
+  ```
+  - A) null
+  - B) 10
+  - C) 0
+  - D) An IndexOutOfBoundsException is thrown at runtime.
+  <details><summary>Answer Q1</summary>
+  
+  </details>
+'''
+tags: []
+isStarred: false
+isTrashed: false

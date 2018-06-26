@@ -1,0 +1,19 @@
+createdAt: "2018-06-26T09:25:24.156Z"
+updatedAt: "2018-06-26T10:28:15.585Z"
+type: "MARKDOWN_NOTE"
+folder: "500e3f4fe40b90c44d01"
+title: "netstat"
+content: '''
+  # netstat
+  
+  ```bash
+  netstat -p 8080 |grep java
+  ```
+  
+  para ver si se ha conectado con el puerto.
+  
+  wget IP para ver el dom de la página.
+'''
+tags: []
+isStarred: false
+isTrashed: false

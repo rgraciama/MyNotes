@@ -1,0 +1,25 @@
+createdAt: "2018-05-22T12:21:24.386Z"
+updatedAt: "2018-05-24T10:45:37.446Z"
+type: "MARKDOWN_NOTE"
+folder: "a61b0ed6c1e9ffe0e115"
+title: "Acciones en BBean mover vista"
+content: '''
+  # Acciones en BBean mover vista
+  
+  #### Lanzar acciones javascript
+  
+  RequestContext.getCurrentInstance().execute("PF('accordionLaunchedJobs').unselect(0)");
+  
+  #### Update values Form
+  
+  <h:form id="myForm">
+    <f:passThroughAttribute name="autocomplete" value="off"/>
+    
+    ### Event listener
+    
+    actionListener (dentro de un h:form)
+    onclick event (type="button")
+'''
+tags: []
+isStarred: false
+isTrashed: false

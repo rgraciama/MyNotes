@@ -1,5 +1,5 @@
 createdAt: "2018-04-13T14:55:55.176Z"
-updatedAt: "2018-04-13T15:02:14.301Z"
+updatedAt: "2018-05-25T11:25:42.424Z"
 type: "MARKDOWN_NOTE"
 folder: "d8a3e829e299fd5ae9b1"
 title: "GIT ADVANCED"
@@ -20,9 +20,17 @@ content: '''
   - Resolver conflictos buscar mergetool.
   
   ### Quitar el commit del file, sin quitar cambios.
-  
   ```git
   git reset HEAD <nameFile>
+  ```
+  
+  ### Crear Branca repo local y saltar a ella
+  ```git
+  git checkout -b <nombreBranca>
+  ```
+  ### Crear branca en repositorio remoto
+  ```git
+  git push origin <nombreBranca>
   ```
 '''
 tags: []
