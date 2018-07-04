@@ -1,10 +1,10 @@
 createdAt: "2018-01-23T09:35:07.623Z"
-updatedAt: "2018-04-12T10:15:16.399Z"
+updatedAt: "2018-06-26T13:03:56.004Z"
 type: "MARKDOWN_NOTE"
 folder: "d8a3e829e299fd5ae9b1"
-title: "GIT"
+title: "GIT Commands"
 content: '''
-  # GIT
+  # GIT Commands
   
   ### git add
   Afegir al stash tots els documents modificats.
@@ -44,6 +44,31 @@ content: '''
   ### git status
   Nos dice el estado del repositorio local
   
+  ### Guardar file al stash
+  
+  - Afegir al stash el document indicat
+  ```git
+  git stash save <nameFile>
+  ```
+  - Cambiar de branca.
+  - Recuperar el ficher del stash
+  ```git
+  git stash pop <nameFile>
+  ```
+  - Resolver conflictos buscar mergetool.
+  
+  ### Quitar el commit del file, sin quitar cambios.
+  ```git
+  git reset HEAD <nameFile>
+  ```
+  
+  ### Crear Branca repo local y saltar a ella
+  ```git
+  git checkout -b <nombreBranca>
+  ```
+  ### Crear branca en repositorio remoto
+  ```git
+  git push origin <nombreBranca>
   
 '''
 tags: [
@@ -51,3 +76,4 @@ tags: [
 ]
 isStarred: false
 isTrashed: false
+isPinned: true

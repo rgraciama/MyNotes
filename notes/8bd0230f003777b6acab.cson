@@ -1,5 +1,5 @@
 createdAt: "2018-01-22T13:34:12.857Z"
-updatedAt: "2018-04-25T11:52:28.039Z"
+updatedAt: "2018-06-26T12:22:55.410Z"
 type: "MARKDOWN_NOTE"
 content: '''
   # [HELP](https://medium.com/boostnote/boost-your-study-and-work-speed-using-markdown-4f1adbb096aa)
@@ -16,8 +16,8 @@ content: '''
   · Supports theme colors and numerous fonts <br>
   </details>
   
-  - [x] Task 1
-  - [x] Task 2
+  - [ ] Task 1
+  - [ ] Task 2
   
   ```js html
   Render: function () {

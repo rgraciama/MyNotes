@@ -1,0 +1,22 @@
+createdAt: "2018-06-29T09:29:42.005Z"
+updatedAt: "2018-06-29T09:30:16.254Z"
+type: "MARKDOWN_NOTE"
+folder: "36dc2446e36e7cca6b7c"
+title: "Buscar columna"
+content: '''
+  # Buscar columna
+  
+  ```SQL
+  use APP_PAMPOL_SAMPLES
+  go
+  select t.name as tableName,
+  SCHEMA_NAME(schema_id) as schema_name,
+  c.name AS column_name
+  from sys.tables as t
+  inner join sys.columns c on t.OBJECT_ID = c.object_id
+  where c.name like '%temporary%'
+  ```
+'''
+tags: []
+isStarred: false
+isTrashed: false

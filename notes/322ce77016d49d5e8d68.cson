@@ -1,0 +1,16 @@
+createdAt: "2018-07-04T12:05:49.598Z"
+updatedAt: "2018-07-04T12:06:51.179Z"
+type: "MARKDOWN_NOTE"
+folder: "36dc2446e36e7cca6b7c"
+title: "Día SEMANA"
+content: '''
+  # Día SEMANA
+  
+  - Ejemplo de fin de semana
+  ```SQL
+  DATEPART(weekday, wd.WD_CONCEPT_START_DATE) > 5
+  ``` 
+'''
+tags: []
+isStarred: false
+isTrashed: false

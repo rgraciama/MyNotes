@@ -1,36 +1,38 @@
 createdAt: "2018-04-12T09:13:36.064Z"
-updatedAt: "2018-06-26T10:40:19.041Z"
+updatedAt: "2018-06-26T13:10:08.580Z"
 type: "MARKDOWN_NOTE"
 folder: "500e3f4fe40b90c44d01"
 title: "Comandes linux"
 content: '''
   # Comandes linux
   
-  ver últimas líneas:
+  Ver últimas líneas:
   ```bash
   tail -f -n1000 /srv/tomcat/logs/catalina.out
   ```
   ---
-  (ctrl+shift+r) buscar consulta reverse
+  (ctrl+r) buscar consulta reverse
+  
+  Si escribes literal y luego vuelves apretar ctrl+r buscará el siguiente match hasta que no encuentre más.
   
   ---
-  ver variables de entorno
+  Ver variables de entorno
   
   ```bash
   printenv
   ```
   ---
-  ver historial de comandas
+  Ver historial de comandas
   ```bash
   history 10
   ```
-  borrar historial
+  Borrar historial
   ```bash
   history -c
   ```
   
   
-  ver comandos más usados
+  Ver comandos más usados
   ```bash
   history | awk 'BEGIN {FS="[ \\t]+|\\\\|"} {print $3}' | sort | uniq -c | sort -nr
    ```

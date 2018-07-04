@@ -1,0 +1,31 @@
+createdAt: "2018-06-28T07:27:00.795Z"
+updatedAt: "2018-06-28T07:37:52.241Z"
+type: "MARKDOWN_NOTE"
+folder: "21cfe7755c8baa8283f3"
+title: "HotSwapAgent"
+content: '''
+  # HotSwapAgent
+  
+  Esta aplicación lo que hace es evitar tener que desplegar la applicación con cada cambio que hagas en los ficheros .java.
+  
+  Además te permite debugar.
+  
+  http://hotswapagent.org/
+  
+  1.- Copy "hotswap-agent-1.3.0" anywhere save.
+  2.- Patch the installed JDK using "DCEVM-8u172-installer.jar" --> Check if it is the proper version
+      2.1.- Click both buttons for patch de JDK
+  3.- Copy arguments to Tomcat Configuration in Eclipse
+  4.- Activate "Build automatically" option in Eclipse
+  5.- Enjoy coding!
+  
+  Argumentos a añadir al tomcat -XXaltjvm=dcevm -javaagent:hotswap-agent.jar
+  
+  ```Java
+  -Dcatalina.base="D:\\apache-tomcat" -Dcatalina.home="D:\\apache-tomcat" -Dwtp.deploy="D:\\apache-tomcat\\webapps" -Djava.endorsed.dirs="D:\\apache-tomcat\\endorsed"
+  -Dorg.apache.el.parser.COERCE_TO_ZERO=false -Dentorn=des -Xmx1024m -Xms512m -XX:MaxPermSize=2048m -Djava.security.auth.login.config="D:\\gssapi.conf" -DlogDir="D:\\_logs_pampol" -XXaltjvm="dcevm" -javaagent:D:\\hotswap-agent\\hotswap-agent-1.3.0.jar=disablePlugin=Hibernate3,disablePlugin=Hibernate,disablePlugin=Hibernate3JPA
+  ```
+'''
+tags: []
+isStarred: false
+isTrashed: false

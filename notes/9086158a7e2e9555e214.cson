@@ -1,0 +1,108 @@
+createdAt: "2018-06-26T13:29:37.322Z"
+updatedAt: "2018-06-26T13:38:29.713Z"
+type: "MARKDOWN_NOTE"
+folder: "276031ddb754b09f1290"
+title: "Screen shoot Helper"
+content: '''
+  # Screen shoot Helper
+  
+  Primero de todo hay que añadir la libreria siguiente:
+  
+  Buscala en mvn repositories.
+  
+  ![ashot.jpg](\\:storage\\0.7b6fmj8wi34.jpg)
+  
+  
+  ![drivers.jpg](\\:storage\\0.17vb5ue4nlt.jpg)
+  
+  ```groovy
+  package com.at.util
+  
+  import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+  import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+  import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+  import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+  
+  import javax.imageio.ImageIO
+  
+  import com.kms.katalon.core.annotation.Keyword
+  import com.kms.katalon.core.checkpoint.Checkpoint
+  import com.kms.katalon.core.checkpoint.CheckpointFactory
+  import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords
+  import com.kms.katalon.core.model.FailureHandling
+  import com.kms.katalon.core.testcase.TestCase
+  import com.kms.katalon.core.testcase.TestCaseFactory
+  import com.kms.katalon.core.testdata.TestData
+  import com.kms.katalon.core.testdata.TestDataFactory
+  import com.kms.katalon.core.testobject.ObjectRepository
+  import com.kms.katalon.core.testobject.TestObject
+  import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
+  import com.kms.katalon.core.webui.common.WebUiCommonHelper
+  import com.kms.katalon.core.webui.driver.DriverFactory
+  import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
+  
+  import internal.GlobalVariable
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.WebElement
+  import ru.yandex.qatools.ashot.AShot
+  import ru.yandex.qatools.ashot.Screenshot
+  import ru.yandex.qatools.ashot.shooting.RotatingDecorator
+  import ru.yandex.qatools.ashot.shooting.ShootingStrategies
+  import ru.yandex.qatools.ashot.shooting.ShootingStrategy
+  import ru.yandex.qatools.ashot.shooting.ViewportPastingDecorator
+  import ru.yandex.qatools.ashot.shooting.cutter.CutStrategy
+  import ru.yandex.qatools.ashot.shooting.cutter.VariableCutStrategy
+  import MobileBuiltInKeywords as Mobile
+  import WSBuiltInKeywords as WS
+  import WebUiBuiltInKeywords as WebUI
+  
+  /* How to use this helper?
+   * Add JAR: https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot/1.5.4
+   * In the Driver folder on Katalon project.
+   */
+  public class ScreenshotHelper {
+  	
+  	//Make a WebElement screenshot
+  	@Keyword
+  	public void takeWebElementScreenshot(TestObject object) {
+  		WebElement element = WebUiCommonHelper.findWebElement(object, 20);
+  		WebDriver driver = DriverFactory.getWebDriver();
+  
+  		Screenshot screenshot = new AShot().takeScreenshot(driver, element);
+  		ImageIO.write(screenshot.getImage(),"PNG", new File(System.getProperty("user.dir")+ "/ErrorScreenshots/ElementScreenshot.png"));
+  	}
+  	
+  	//Make a WebElement screenshot by Folder
+  	@Keyword
+  	public void takeWebElementScreenshotByFolder(TestObject object, String filepath) {
+  		WebElement element = WebUiCommonHelper.findWebElement(object, 20);
+  		WebDriver driver = DriverFactory.getWebDriver();
+  
+  		Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver, element);
+  		ImageIO.write(screenshot.getImage(),"PNG", new File(filepath));
+  	}
+  	
+  	
+  	//Make a Fullpage screenshot
+  	@Keyword
+  	public void takeWebFullPageScreenshot(TestObject object) {
+  		WebDriver driver = DriverFactory.getWebDriver();
+  		
+  		Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
+  		ImageIO.write(screenshot.getImage(),"PNG", new File(System.getProperty("user.dir")+ "/ErrorScreenshots/FullPageScreenshot.png"));
+  	}
+  	
+  	//Make a Fullpage screenshot by folder
+  	@Keyword
+  	public void takeWebFullPageScreenshotByFolder(String filepath) {
+  		WebDriver driver = DriverFactory.getWebDriver();
+  		
+  		Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
+  		ImageIO.write(screenshot.getImage(),"PNG", new File(filepath));
+  	}
+  }
+  ```
+'''
+tags: []
+isStarred: false
+isTrashed: false

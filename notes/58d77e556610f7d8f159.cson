@@ -1,5 +1,5 @@
 createdAt: "2018-06-08T09:44:33.449Z"
-updatedAt: "2018-06-08T09:44:45.387Z"
+updatedAt: "2018-06-26T12:59:45.879Z"
 type: "MARKDOWN_NOTE"
 folder: "d8a3e829e299fd5ae9b1"
 title: "GIT quitar Remotes branches que no existen"
@@ -10,4 +10,4 @@ content: '''
 '''
 tags: []
 isStarred: false
-isTrashed: false
+isTrashed: true

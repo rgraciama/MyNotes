@@ -1,0 +1,14 @@
+createdAt: "2018-06-27T10:34:07.134Z"
+updatedAt: "2018-06-27T10:34:46.286Z"
+type: "MARKDOWN_NOTE"
+folder: "0fa4ad287f3c45c70f42"
+title: "Gradle Settings"
+content: '''
+  # Gradle Settings
+  
+  gradle.properties (Global)
+  gradle.properties (Project)
+'''
+tags: []
+isStarred: false
+isTrashed: false

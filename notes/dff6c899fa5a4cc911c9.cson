@@ -1,0 +1,21 @@
+createdAt: "2018-06-26T12:25:16.936Z"
+updatedAt: "2018-06-26T12:37:29.576Z"
+type: "MARKDOWN_NOTE"
+folder: "d8a3e829e299fd5ae9b1"
+title: "Eclipse Conf"
+content: '''
+  # Eclipse Conf
+  
+  <details><summary>How do I delete local remote-tracking branches when remote branch is deleted</summary>
+  _Steps_<br>
+  · In Eclipse, Window -> Preferences -> Git -> Configuration -> Repository Settings tab.<br>
+  · Select the Repository.<br>
+  · Select Add Entry.<br>
+  · Add Key "fetch.prune" and Value "true"<br>
+  </details>
+'''
+tags: [
+  "Eclipse"
+]
+isStarred: false
+isTrashed: false

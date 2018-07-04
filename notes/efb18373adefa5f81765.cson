@@ -1,0 +1,16 @@
+createdAt: "2018-06-26T10:58:51.705Z"
+updatedAt: "2018-06-26T10:59:03.065Z"
+type: "MARKDOWN_NOTE"
+folder: "031ecbede13ccaae76ab"
+title: "Comprobar versión JAVA linux"
+content: '''
+  # Comprobar versión JAVA linux
+  
+  ```bash
+  update-alternatives --config java
+  ```
+  la que esté con asterisco es la actual
+'''
+tags: []
+isStarred: false
+isTrashed: false

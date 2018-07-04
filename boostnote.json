@@ -79,6 +79,21 @@
       "key": "276031ddb754b09f1290",
       "color": "#E8D252",
       "name": "Katalon"
+    },
+    {
+      "key": "0fa4ad287f3c45c70f42",
+      "color": "#E8D252",
+      "name": "Android"
+    },
+    {
+      "key": "21cfe7755c8baa8283f3",
+      "color": "#FF8E00",
+      "name": "Tomcat"
+    },
+    {
+      "key": "755cd204f34a9291657a",
+      "color": "#E10051",
+      "name": "Eclipse"
     }
   ],
   "version": "1.0"
