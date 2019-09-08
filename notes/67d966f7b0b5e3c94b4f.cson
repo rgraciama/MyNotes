@@ -1,15 +1,88 @@
 createdAt: "2018-01-23T09:35:07.623Z"
-updatedAt: "2018-06-26T13:03:56.004Z"
+updatedAt: "2018-12-28T00:21:45.226Z"
 type: "MARKDOWN_NOTE"
 folder: "d8a3e829e299fd5ae9b1"
 title: "GIT Commands"
 content: '''
   # GIT Commands
   
+  ### Crear key ssh para github
+  
+  ```git
+  ssh-keygen -t rsa -b 4096 -C "mail"
+  ```
+  
+  ### Git Cherry-pick
+  
+  Tienes dos brancas y el commit de una branca te lo quieres llevar a otra.
+  
+  ```git
+  git cherry-pick <hash de commit de la otra rama>
+  ```
+  
+  ### Uso de stash
+  
+  Para guardar cambias que esten en stash pero que no quieras hacer commit.
+  ```git
+  git stash
+  ```
+  
+  Para volver al stash x
+  ```git
+  git stash apply stash@{numero}
+  ```
+  
+  Para borrar de la lista del stash
+  ```git
+  git stash drop stash@{numero}
+  ```
+  
+  Para listar stash
+  ```git
+  git stash list
+  ```
+  
+  ### Quitar del stash
+  ```git
+  git rm --cached <fileName>
+  ```
+  
+  ### Quitar el file del stash
+  ```git
+  git reset HEAD <nameFile>
+  ```
+  ### Borrar cambios hacía un commit y dejarlo en stash
+  ```git
+  git reset --soft <sha commit>
+  ```
+  
+  ### Borrar cambios hacía un commit y dejarlo sin stash.
+  ```git
+  git reset --mixed <sha commit>
+  ```
+  
+  
+  ### Borrar cambios hacía un commit y borra todos los cambios que esten tracked o sea si no está en stash no funciona.
+  ```git
+  git reset --hard <sha commit>
+  ```
+  
+  ### Ver en una línea los commits
+  ```git
+  git log --oneline
+  ```
+  
+  ### Concatenar commits
+  ```git
+  git commit --amend -m "nuevo titulo"
+  ```
+  
   ### git add
   Afegir al stash tots els documents modificats.
   ```git
-  git add .
+  git add -A  # Agrega todos los archivos que hayan sufrido cambios (creados, modificados, eliminados).
+  git add .   # Agrega los archivos creados y modificados, PERO NO los eliminados.
+  git add -u  # Agrega los archivos modificados y eliminados, PERO NO los creados.
   ```
   ### git branch
   Para mostrar brancas remotas:
@@ -57,11 +130,6 @@ content: '''
   ```
   - Resolver conflictos buscar mergetool.
   
-  ### Quitar el commit del file, sin quitar cambios.
-  ```git
-  git reset HEAD <nameFile>
-  ```
-  
   ### Crear Branca repo local y saltar a ella
   ```git
   git checkout -b <nombreBranca>
@@ -69,6 +137,9 @@ content: '''
   ### Crear branca en repositorio remoto
   ```git
   git push origin <nombreBranca>
+  ```
+  
+  
   
 '''
 tags: [

@@ -94,6 +94,11 @@
       "key": "755cd204f34a9291657a",
       "color": "#E10051",
       "name": "Eclipse"
+    },
+    {
+      "key": "1fd9f04d99394d28d4ba",
+      "color": "#E8D252",
+      "name": "ReactJS"
     }
   ],
   "version": "1.0"

@@ -1,0 +1,22 @@
+createdAt: "2019-09-02T18:55:59.188Z"
+updatedAt: "2019-09-02T18:57:03.425Z"
+type: "MARKDOWN_NOTE"
+folder: "1fd9f04d99394d28d4ba"
+title: "Examen ReactJS"
+tags: []
+content: '''
+  #Examen ReactJS
+  
+  Preguntas fallidas:
+  - En pseudocódigo, decimos que ReactDOM.render recibe los siguientes argumentos:
+  - ¿Cuál es la diferencia entre <Navbar /> y Navbar?
+  - Hay ocasiones en las cuales hay un estado que tenemos que compartir con dos o más componentes. ¿A dónde debemos levantar ese estado?
+  - ¿Cuál es el feature principal de un Switch?
+  - ¿Cómo se llama el primer método que se ejecuta cuando se monta un componente?
+  - ¿Cuál es el método que React utiliza como señal de que ocurrió una actualización?
+  - En algunas ocasiones podemos definir dos sub-estados para los datos que obtenemos de una peticion. Esto son:
+  - En pseudocódigo, decimos que ReactDOM.createPortal recibe los siguientes argumentos:
+  - Una regla de los hooks es que el su nombre debe comenzar con esta palabra:
+'''
+isStarred: false
+isTrashed: false
