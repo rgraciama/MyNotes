@@ -1,0 +1,146 @@
+createdAt: "2019-09-08T12:57:38.587Z"
+updatedAt: "2019-09-08T14:32:32.605Z"
+type: "MARKDOWN_NOTE"
+folder: "1fd9f04d99394d28d4ba"
+title: "Examen"
+tags: []
+content: '''
+  # Examen
+  
+  <span style="color:green">[OK] **1) Una regla de los hooks es que el su nombre debe comenzar con esta palabra:**
+  - hook
+  - async
+  - **use [OK]**
+  - hooks
+  </span>
+  ----
+  <span style="color:red">**2) ¿Cuál es el feature principal de un Switch?**
+  - Asegura que solamente un Router se renderice.
+  - Permite pasar valor como prop, y así elegir el Route que se presenta.
+  - Le pasa match,history y location como props a la ruta que se renderiza.
+  - ~~Habilitar la aplicación como un single page app.~~
+  </span>
+  ----
+  <span style="color:red">**3) Hay ocasiones en las cuales hay un estado que tenemos que compartir con dos o más componentes. ¿A dónde debemos levantar ese estado?**
+  - A localStorage
+  - Al componente en común más cercano a los componentes que lo usan.
+  - En la BBDD.
+  - ~~Hay que acomodar un componente dentro de otro y usar los props para hacerle llegar el valor de uno al otro.~~
+  </span>
+  ----
+  <span style="color:green">[OK] **4) ¿Cuál es la diferencia entre ```<Link> y <a >```?**
+  - Uno es un elemento, y el otro un componente.
+  - Solamente es válido usar Link en React.
+  - **```<Link> evita que se cargue completamente la página, mientras que <a> sí. [OK]```**
+  - Ninguna: un ```<Link> es un <a>``` internamente.
+  </span>
+  ----
+  <span style="color:green">[OK] **5) Cuando tenemos un setInterval o un setTimeout en nuestro componente ¿en dónde debemos removerlo?**
+  - render
+  - componentDidMount
+  - componentDidUpdate
+  - **componentWillUnmount** [OK]
+  </span>
+  ----
+  <span style="color:green">[OK] **6) En preudocódigo, decimos que ReactDOM.render recibe los siguientes argumentos:**
+  - render (qué elemento, dónde) [OK]
+  </span>
+  [Screenshot - fb96b8aaa78bfae6bcf366679fb51631 - Gyazo](https://gyazo.com/fb96b8aaa78bfae6bcf366679fb51631)
+  ----
+  <span style="color:green">[OK] **7) En pseudocódigo, decimos que ReactDOM.createPortal recibe los siguientes argumentos:**
+  - createPortal(qué elemento, dónde) [OK]
+  </span>
+  [Screenshot - a959bc55c29150682878ee3b06973da9 - Gyazo](https://gyazo.com/a959bc55c29150682878ee3b06973da9)
+  ----
+  <span style="color:green">[OK] **8) ¿Cuál de estos momentos presenta la mejor oportunidad para crear un componente?**
+  - Cuando tenemos una lista y presentamos alguna información repetitivamente. [OK]
+  </span>
+  [Screenshot - 2c686a77d8b6e40af751e8fe3b3fc4f9 - Gyazo](https://gyazo.com/2c686a77d8b6e40af751e8fe3b3fc4f9)
+  ----
+  <span style="color:green">[OK] **9) ¿Cúal de estos es un evento válido?**
+  - onKeyDown [OK]
+  </span>
+  [Screenshot - a62d5471e498b2c0ecd664c4c43e442e - Gyazo](https://gyazo.com/a62d5471e498b2c0ecd664c4c43e442e)
+  ----
+  <span style="color:red">**10) En Algunas ocasiones podemos definir dos sub-estados para los datos que obtenemos de una peticion. Esto son:**</span>
+  ![d5609ab6.png](:storage\\56aae559-5cff-452a-b651-b3021b7e9b37\\d5609ab6.png)
+  - [Screenshot - 3295eba4f617e7fbe2a9e18673f22391 - Gyazo](https://gyazo.com/3295eba4f617e7fbe2a9e18673f22391)
+  ----
+  <span style="color:green">[OK] **11) ¿Cuál de las siguientes no es JSX válido?**</span>
+  ![536eb9c7.png](:storage\\56aae559-5cff-452a-b651-b3021b7e9b37\\536eb9c7.png)
+  - [Screenshot - 6e0dc718f45e2fd0480a11636aea7e7d - Gyazo](https://gyazo.com/6e0dc718f45e2fd0480a11636aea7e7d)
+  ----
+  <span style="color:green">[OK] **12) ¿Cómo se llama el primer método que se ejectua cuando se monta un componente?**</span>
+  - render()
+  - [Screenshot - 669b5c70fa49888fd24a6ff86b03015e - Gyazo](https://gyazo.com/669b5c70fa49888fd24a6ff86b03015e)
+  ----
+  <span style="color:red">**13) Cuál es la diferencia entre ```<Navbar /> y Navbar```**</span>
+  ![25a1378e.png](:storage\\56aae559-5cff-452a-b651-b3021b7e9b37\\25a1378e.png)
+  - [Screenshot - 331e69a5090ad1c12f28764d933e2fbb - Gyazo](https://gyazo.com/331e69a5090ad1c12f28764d933e2fbb)
+  ----
+  <span style="color:green">[OK] **14) Create-react-app nos ayuda a configurarlas siguientes herramientas:**</span>
+  - Webpack, Babel.
+  - [Screenshot - b0427e02ece8abeea6b81281a2565dc8 - Gyazo](https://gyazo.com/b0427e02ece8abeea6b81281a2565dc8)
+  ----
+  <span style="color:green">[OK] **15) ReactDOM.createPortal nos permite hacer render de**</span>
+  - Un elemento fuera la applicación principal.
+  [Screenshot - eb4fba14b868dca23fc4420b1206a4eb - Gyazo](https://gyazo.com/eb4fba14b868dca23fc4420b1206a4eb)
+  ----
+  <span style="color:green">[OK] **16) ¿Cuál es el último método que se llama cuando se desmonta un componente?**</span>
+  - componentWillUnmount()
+  - [Screenshot - ab169bc95b75da656b03890b96def917 - Gyazo](https://gyazo.com/ab169bc95b75da656b03890b96def917)
+  ----
+  <span style="color:green">[OK] **17) ¿Cuál de estas sería un uso correcto de React.useState?**</span>
+  - const[name, setName] = React.useState("");
+  [Screenshot - 8c622ea1d5d0d5874b0884710d7bc59f - Gyazo](https://gyazo.com/8c622ea1d5d0d5874b0884710d7bc59f)
+  ----
+  <span style="color:green">[OK] **18. El hecho de que React sea declarativo quiere decir que:
+  - Especificamos qué queremos, no cómo lo hacemos.
+  [Screenshot - 533ad98f050609d7c88c87be4e9d3fe8 - Gyazo](https://gyazo.com/533ad98f050609d7c88c87be4e9d3fe8)
+  ----
+  <span style="color:green">[OK] **19) ¿Cuál prop es importante cuando renderizamos una lista de componentes?**</span>
+  - key
+  - [Screenshot - a672a1989fb8b757bb583e40829401f3 - Gyazo](https://gyazo.com/a672a1989fb8b757bb583e40829401f3)
+  ----
+  <span style="color:green">[OK] **20) ¿Qué evento se dispara cuando un usuario escribe en una caja de texto?**</span>
+  - onChange
+  - [Screenshot - eca49a6926b206b6410e97c9df18f11d - Gyazo](https://gyazo.com/eca49a6926b206b6410e97c9df18f11d)
+  ----
+  <span style="color:green">[OK] **21) ¿Cuál es el método que React utiliza como señal de que ocurrió una actualización?**</span>
+  - componentDidUpdate()
+  - [Screenshot - c943f605e0951c660223f074d0936729 - Gyazo](https://gyazo.com/c943f605e0951c660223f074d0936729)
+  ----
+  <span style="color:green">[OK] **22) ¿Cuáles son los tres estados de una petición?**</span>
+  - loading, error, data.
+  - [Screenshot - 6a8b961dbf3b1e6e16399adcac71a962 - Gyazo](https://gyazo.com/6a8b961dbf3b1e6e16399adcac71a962)
+  ----
+  <span style="color:green">[OK] **23) ¿Cuál de estos es el mejor lugar para iniciar una llamada HTTP?**</span>
+  - componentDidMount();
+  - [Screenshot - 3ca211a8545f0ef7962b6f89f35a0495 - Gyazo](https://gyazo.com/3ca211a8545f0ef7962b6f89f35a0495)
+  ----
+  <span style="color:red">**24) JSX es syntatic sugar para:**</span>
+  - -```<div> ${person.firstName}....``` NO OK
+  - [Screenshot - 5223f5d633ed07764a6bc6a00e62d2dd - Gyazo](https://gyazo.com/5223f5d633ed07764a6bc6a00e62d2dd)
+  ----
+  <span style="color:red"> **25) ¿Cuándo es buen momento para dividir un componente en contenedor y componente presentacional?**</span>
+  - ~~Cuando tiene un formulario.~~
+  - [Screenshot - 07fc20feaa2cc9db966a7999ce2ac034 - Gyazo](https://gyazo.com/07fc20feaa2cc9db966a7999ce2ac034)
+  ----
+  <span style="color:green">[OK] **26) ¿Cuál es el único momento en el que podemos escribir directo a this.state?**</span>
+  - Durante la inicicialización de una clase Component.
+  - [Screenshot - 98b6d738da983336708aadcb65ea60e9 - Gyazo](https://gyazo.com/98b6d738da983336708aadcb65ea60e9)
+  ----
+  <span style="color:green">[OK] **27) componentDidUpdate recide dos argumentos. ¿Cúales son y en que orden?**</span>
+  - prevProps, prevState
+  [Screenshot - f66ea9ff8590e207504bd5e8df57f62e - Gyazo](https://gyazo.com/f66ea9ff8590e207504bd5e8df57f62e)
+  ----
+  <span style="color:green">[OK] **28) ¿Por qué usamos un Portal para asegurar que los modales queden en un nodo fuera de la aplicación principal?**</span>
+  - Para evitar problemas de estilos, en particular, con el z-index.
+  [Screenshot - 9c10c8cbe9287af040b9f373136897b5 - Gyazo](https://gyazo.com/9c10c8cbe9287af040b9f373136897b5)
+  ----
+  <span style="color:green">[OK] **29)En react hay un prop que representa el contenido entre las etiquetas de un elemento. ¿Cómo se llama?**</span>
+  - props.children
+  [Screenshot - faf3f373ba1062109e908576e5a8dabb - Gyazo](https://gyazo.com/faf3f373ba1062109e908576e5a8dabb)
+'''
+isStarred: false
+isTrashed: false
