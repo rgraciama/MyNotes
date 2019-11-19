@@ -1,0 +1,25 @@
+createdAt: "2019-11-19T10:38:36.626Z"
+updatedAt: "2019-11-19T10:43:07.815Z"
+type: "MARKDOWN_NOTE"
+folder: "e753a4d90155d4543ead"
+title: "Convert Json to class"
+tags: []
+content: '''
+  #Convert Json to class
+  ```java
+  String eljeison = "{'date':'Nov 19, 2019 11:33:25 AM','runNumber':1,'shift':1,'eventCategory':{'id':1},'filesIds':[{'testResultsFileId':4}],'id':2,'testId':0}";
+  Gson gson = new Gson();
+  BrkPerformance brktest = gson.fromJson(eljeison, BrkPerformance.class);
+  ```
+  
+  --Primero de todo hay que convertir la class en json
+  ```java
+  Gson gson = new Gson();
+  gson.toJson(event);
+  ```
+  
+  https://www.mkyong.com/java/how-do-convert-java-object-to-from-json-format-gson-api/
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

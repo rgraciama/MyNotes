@@ -1,0 +1,14 @@
+createdAt: "2019-11-08T15:25:16.982Z"
+updatedAt: "2019-11-08T15:25:30.466Z"
+type: "MARKDOWN_NOTE"
+folder: "36dc2446e36e7cca6b7c"
+title: "geography type"
+tags: []
+content: '''
+  #geography type
+  
+  UPDATE GA_POINTS_TEST   SET GAPT_SPEED_LIMIT_ROUTES=  (select sl FROM (SELECT TOP(1) P_SPEED_LIMIT as sl, geography::Point(GAPT_LAT,GAPT_LON, 4326).STDistance(P_POINT) as distance FROM POINT_GEO order by distance asc) as sq)   WHERE 1 = 1  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
