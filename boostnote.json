@@ -99,6 +99,11 @@
       "key": "755cd204f34a9291657a",
       "color": "#E10051",
       "name": "Eclipse"
+    },
+    {
+      "key": "c3fc031629f234ca43f7",
+      "color": "#E10051",
+      "name": "maven"
     }
   ],
   "version": "1.0"

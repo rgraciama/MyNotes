@@ -1,0 +1,16 @@
+createdAt: "2020-01-08T08:51:27.053Z"
+updatedAt: "2020-01-08T08:51:39.185Z"
+type: "MARKDOWN_NOTE"
+folder: "c3fc031629f234ca43f7"
+title: "Create new version"
+tags: []
+content: '''
+  # Create new version
+  
+  mvn versions:set -DnewVersion=3.6.0
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
